@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baap er Bank Insurance Limited</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header>
+    <h1 class="text-5xl text-center mt-6">
+      Welcome to your <span class="font-semibold text-green-400">Baap Er Bank</span> !!!
+    </h1>
+  </header>
+  <main>git
+    <section class="bg-emerald-100 w-9/12 mx-auto mt-12 p-8 rounded-lg">
+      <h3 class="text-3xl mb-4 font-medium">
+        Please Login
+      </h3>
+      <div>
+        <input class="w-9/12 mb-5 px-3 block" type="email" name="" id="user-email" placeholder="Enter your Email">
+        <input class="w-9/12 mb-5 px-3 block" type="password" name="" id="user-password" placeholder="Enter your password">
+        <button id="btn-submit" class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-8 py-3 text-white font-medium rounded-lg">Submit</button>
+      </div>
+    </section>
+    <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_5.showModal()">open modal</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+    </div>
+  </form>
+</dialog>
+  </main>
+  <script src="js/login.js"></script>
+</body>
+</html>
